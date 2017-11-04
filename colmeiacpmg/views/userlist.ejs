@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+ <h1 class="text-center title-1"> Lista de Usu&aacute;rios </h1>
+ <ul>
+ <% userlist.forEach(function(user){ %>
+ <li><%= user.email %> --- <%= user.username %> --- <%= user.pmcode %></li> 
+ <%})%>
+ </ul>
+</body>
+</html>
